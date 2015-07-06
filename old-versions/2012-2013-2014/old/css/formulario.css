@@ -1,0 +1,53 @@
+/* LABEL */
+label {
+     display: block; /* DEIXANDO UM ACIMA DO OUTRO */
+     margin: 5px 0 5px 0; /* ESPAÇO ACIMA E ABAIXO */
+}
+
+/* FORMATANDO OS IDENTIFICADORES DOS CAMPOS */
+label span {
+     display: block;
+     width: 80px;
+     margin-top: 2px;
+     float: left;
+}
+
+/* FORMATANDO INPUT, SELECT E TEXTAREA */
+input, textarea, select {
+     color: #336699;
+     width: 200px;
+	 height:25px;
+     border: solid 1px #006699;
+}
+
+/* SELECT COM LARGURA AUTOMÁTICA */
+select {
+     width: auto;
+}
+
+textarea {
+     height: 100px;
+     overflow: auto; /* BARRA DE ROLAGEM AUTOMÁTICA */
+}
+
+/* FORMATAÇÃO DO BOTÃO */
+button {
+     background: #024b06;
+     color: #FFF;
+     font-weight: bold;
+     margin-top: 10px;
+     border: none;
+	 width:70px;
+	 height:20px;
+	 border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px;
+}
+
+button:hover  
+
+{
+     background: #fff;
+     color: #000;
+     font-weight: bold;
+     margin-top: 10px;
+     border: none;
+}

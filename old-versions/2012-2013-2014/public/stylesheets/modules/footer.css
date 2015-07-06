@@ -1,0 +1,12 @@
+/*********************************************************************
+/*  =footer
+*********************************************************************/
+.footer {
+  padding: 2%;
+  background-color: #659ec2;
+  color: #fff; }
+  .footer a {
+    text-decoration: none;
+    color: white; }
+  .footer a:hover {
+    color: #3c81ad; }
