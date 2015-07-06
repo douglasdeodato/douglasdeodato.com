@@ -9,5 +9,25 @@
 
 @media screen and (max-width: 767px) { 
 
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand
+{
+	margin-left:10px;
+}
+
+.col-md-6 {
+  margin-top: 10%;
+}
+
+ul {
+	width: 100%;
+
+	li {
+ 	 float: none;
+  	 margin-left: auto;
+  	 line-height: 1.875em;
+}
+}
+
+
 
 } /*/mediaquery*/

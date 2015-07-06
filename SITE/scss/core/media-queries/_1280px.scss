@@ -11,6 +11,14 @@
 
 @media screen and (max-width: 1280px)  {
 
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+
+	margin-left:-15px;
+}
+
+.col-md-6 {
+  margin-top: 3%;
+}
 
 
 } /*/mediaquery*/

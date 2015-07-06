@@ -20,6 +20,7 @@ body {
     height: 100%;
     min-height: 100%;
     color:#565a5c;
+    background-color: $white;
     font: normal normal 100%/1.5em "enriqueta";
      
 }
@@ -32,5 +33,19 @@ h4 {
   color: $white;
   font-size: 0.875em;
   font-weight: bold;
+}
 
+h1,h2 {
+	color:$h1;
+}
+
+p {
+	color:$white;
+	text-align:center;
+	font-size:1.1875em;
+}
+
+a:hover {
+	border: none !important;
+	text-decoration: none !important;
 }

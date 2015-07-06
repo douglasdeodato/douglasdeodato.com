@@ -6,3 +6,25 @@
 * 	Date : 07/07/2015
 * 	version: 0.1  
 *********************************************************************/
+
+
+.col-md-6 {
+ 		margin-top: 2%;
+ 		// border:1px solid red;
+ 		text-align:center;
+ 		padding: 20px;
+ }
+
+
+ .container {
+  width: 100%;
+}
+
+.row:nth-child(2) {
+	background-color:$white;
+}
+
+
+.row:nth-child(1) {
+	background-color:$body;
+}
