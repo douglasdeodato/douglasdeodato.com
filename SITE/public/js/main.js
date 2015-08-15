@@ -1,1 +1,6 @@
+$(function() {
 
+new WOW().init();
+
+
+});
