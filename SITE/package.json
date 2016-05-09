@@ -1,0 +1,29 @@
+{
+  "name": "douglasdeodato.com",
+  "version": "1.0.0",
+  "description": "douglas deodato",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasdeodato/douglasdeodato.com.git"
+  },
+  "keywords": [
+    "douglas",
+    "deodato"
+  ],
+  "author": "douglas deodato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasdeodato/douglasdeodato.com/issues"
+  },
+  "homepage": "https://github.com/douglasdeodato/douglasdeodato.com#readme",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-watch": "*"
+  }
+}
