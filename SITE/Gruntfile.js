@@ -9,6 +9,7 @@ module.exports = function  (grunt) {
 			,'grunt-contrib-watch'
 			,'grunt-contrib-concat'
 			,'grunt-contrib-sass'
+			,'grunt-contrib-connect'
 	];
 
     			//src ===============================
@@ -17,7 +18,9 @@ module.exports = function  (grunt) {
 					 sassMain     	 : 'scss/main.scss',
 					 distFolder		 : 'public/stylesheets/lovelycss.dist.css',
 					 devFolder		 : 'public/stylesheets/lovelycss.dev.css',
-					 sassFolder		 : 'scss/**/*.scss'  
+					 sassFolder		 : 'scss/**/*.scss',
+					 serverPort: 9000,
+      				 serverHost: '0.0.0.0' 
 				};
 
 

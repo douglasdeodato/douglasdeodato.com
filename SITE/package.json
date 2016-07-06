@@ -23,6 +23,7 @@
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-concat": "*",
+    "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-sass": "*",
     "grunt-contrib-watch": "*"
   }
