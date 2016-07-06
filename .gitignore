@@ -1,5 +1,6 @@
 # Numerous always-ignore extensions
 SITE/node_modules
+SITE/Gruntfile.js
 *.diff
 *.err
 *.orig
