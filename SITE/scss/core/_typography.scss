@@ -1,5 +1,23 @@
-/*********************************************************************
-*  =fonts
-*********************************************************************/
+//  *********************************************************************
+//  =Fonts
+//
+//  Author : @douglasdeodato
+//  Project: douglasdeodato.com
+//  Date   : 29/08/2016
+//  Version: package.json
+//  *********************************************************************/
 
-@import url(../../fonts/stylesheet.css);
+// @import url(../../fonts/stylesheet.css);
+
+$font-path: "../fonts/" !default;
+
+
+@font-face {
+  font-family: 'CalligraffitiRegular';
+  src: url('#{$font-path}calligraffiti/Calligraffiti-webfont.eot');
+  src: url('#{$font-path}calligraffiti/Calligraffiti-webfont.eot?#iefix') format('embedded-opentype'),
+    url('#{$font-path}calligraffiti/Calligraffiti-webfont.woff') format('woff'),
+    url('#{$font-path}calligraffiti/Calligraffiti-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

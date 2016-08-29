@@ -1,30 +1,26 @@
-/*********************************************************************
-* 	=Index 
-*
-* 	Author: douglasdeodato
-* 	Site: lovelycss.com
-* 	Date : 07/07/2015
-* 	version: 0.1  
-*********************************************************************/
-
+//  *********************************************************************
+//  =Index
+//
+//  Author : @douglasdeodato
+//  Project: douglasdeodato.com
+//  Date   : 29/08/2016
+//  Version: package.json
+//  *********************************************************************/
 
 .col-md-6 {
- 		margin-top: 2%;
- 		// border:1px solid red;
- 		text-align:center;
- 		padding: 20px;
- }
+  margin-top: 2%;
+  text-align: center;
+  padding: 20px;
+}
 
-
- .container {
+.container {
   width: 100%;
 }
 
 .row:nth-child(2) {
-	background-color:$white;
+  background-color: $white;
 }
 
-
 .row:nth-child(1) {
-	background-color:$body;
+  background-color: $body;
 }

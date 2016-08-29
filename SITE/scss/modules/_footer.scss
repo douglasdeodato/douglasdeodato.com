@@ -1,22 +1,18 @@
-/*********************************************************************
-* 	=Footer 
-*
-* 	Author: douglasdeodato
-* 	Site: lovelycss.com
-* 	Date : 07/07/2015
-* 	version: 0.1  
-*********************************************************************/
+//  *********************************************************************
+//  =Footer
+//
+//  Author : @douglasdeodato
+//  Project: douglasdeodato.com
+//  Date   : 29/08/2016
+//  Version: package.json
+//  *********************************************************************/
 
 footer {
   background-color: $footer;
-    height: 190px;
+  height: 190px;
   padding: 32px;
-  // margin-top: 4%;
-
   .fa {
-  	  color: $white;
-  	  font-size: 2.525em !important;
-
-
+    color: $white;
+    font-size: 2.525em !important;
   }
 }

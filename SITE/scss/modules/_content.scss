@@ -1,25 +1,23 @@
-/*********************************************************************
-* 	=Content 
-*
-* 	Author: douglasdeodato
-* 	Site: lovelycss.com
-* 	Date : 07/07/2015
-* 	version: 0.1  
-*********************************************************************/
-
+//  *********************************************************************
+//  =Content
+//
+//  Author : @douglasdeodato
+//  Project: douglasdeodato.com
+//  Date   : 29/08/2016
+//  Version: package.json
+//  *********************************************************************/
 
 .fa {
-	color:$black;
-	font-size:13.125em !important;
+  color: $black;
+  font-size: 13.125em !important;
 }
 
 .heart {
-	font-size: 11em;
- 	line-height: 0.13em;
-    margin-bottom: 0.25em;
-    color: $white;
-
-    .fa {
-    	font-size: 0.85em !important;
-    }
+  font-size: 11em;
+  line-height: 0.13em;
+  margin-bottom: 0.25em;
+  color: $white;
+  .fa {
+    font-size: 0.85em !important;
+  }
 }
