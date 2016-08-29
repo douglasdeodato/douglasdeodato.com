@@ -1,5 +1,5 @@
 //  *********************************************************************
-//  =Colours
+//  = Main
 //
 //  Author : @douglasdeodato
 //  Project: douglasdeodato.com
@@ -7,13 +7,13 @@
 //  Version: package.json
 //  *********************************************************************/
 
+// Load all modules
+@import "helpers/main";
+@import "core/main";
+@import "vendor/main";
+@import "modules/main";
+@import "pages/index";
 
-//  *********************************************************************
-//  =legend    
-//  *********************************************************************/
 
-$white:#fff;
-$black:#000;
-$body:#208bbf;
-$footer:#222222;
-$h1:#6abbd8;
+//Load Core Media Queries
+@import "core/media-queries/main";

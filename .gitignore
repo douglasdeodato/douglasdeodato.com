@@ -1,7 +1,7 @@
 # Numerous always-ignore extensions
 SITE/node_modules
-SITE/Gruntfile.js
-SITE/package.json
+#SITE/Gruntfile.js
+#SITE/package.json
 *.diff
 *.err
 *.orig
