@@ -7,11 +7,22 @@
 //  Version: package.json
 //  *********************************************************************/
 
-footer {
-  background-color: $footer;
-  height: 190px;
-  padding: 32px;
-  .fa {
+// footer {
+//   background-color: $grey;
+//   height: 190px;
+//   .fa {
+//     color: $white;
+//     font-size: 2.525em !important;
+//   }
+// }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: palette(grey, light);
+     .fa {
     color: $white;
     font-size: 2.525em !important;
   }

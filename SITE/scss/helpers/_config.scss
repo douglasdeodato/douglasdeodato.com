@@ -1,5 +1,5 @@
 //  *********************************************************************
-//  =Index
+//  =Colours
 //
 //  Author : @douglasdeodato
 //  Project: douglasdeodato.com
@@ -7,20 +7,19 @@
 //  Version: package.json
 //  *********************************************************************/
 
-.col-md-6 {
-  margin-top: 2%;
-  text-align: center;
-  padding: 20px;
-}
 
-.container {
-  width: 100%;
-}
+// Descriptive Base Colors
 
-.row:nth-child(2) {
-  background-color: $white;
-}
+$white:#fff;
+$black:#000;
+$grey: #999999;
 
-.row:nth-child(1) {
-  background-color: $body;
-}
+
+// Color Palette Modifiers
+
+$color-palettes: (
+    grey: (
+        light     : #f5f5f5,
+        base      : $grey,
+    ),
+);
