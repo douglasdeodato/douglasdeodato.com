@@ -74,10 +74,29 @@ module.exports = function  (grunt) {
                             }
                         };
 
+
+                    //grunt serve ===============================
+                    config.connect = {
+                         server: {
+                          options: {
+                            port: 8000,
+                            base: {
+                              path: 'SITE',
+                              options: {
+                                index: 'index.html',
+                                maxAge: 300000
+                              }
+                            }
+                          }
+                        }
+                    };
+
+
     //Register custom tasks ===============================
     grunt.registerTask('default',['dev']);
     grunt.registerTask('dev', ['concat:dev','sass:dev']);
     grunt.registerTask('dist',['concat:dev','sass:dist']);
+
 
 
     //General setup ===============================

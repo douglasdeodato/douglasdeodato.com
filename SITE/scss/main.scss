@@ -8,12 +8,7 @@
 //  *********************************************************************/
 
 // Load all modules
-   @import "helpers/main";
-   @import "core/main";
-   @import "vendor/main";
-   @import "modules/main";
-// @import "pages/index";
-
-
-//Load Core Media Queries
-//@import "core/media-queries/main";
+@import "helpers/main";
+@import "core/main";
+@import "vendor/main";
+@import "modules/main";
