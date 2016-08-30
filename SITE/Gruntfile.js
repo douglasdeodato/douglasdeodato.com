@@ -78,17 +78,11 @@ module.exports = function  (grunt) {
                     //grunt serve ===============================
                     config.connect = {
                          server: {
-                          options: {
-                            port: 8000,
-                            base: {
-                              path: 'SITE',
-                              options: {
-                                index: 'index.html',
-                                maxAge: 300000
-                              }
+                            options: {
+                              livereload: true,
+                              port: 8000
                             }
                           }
-                        }
                     };
 
 
@@ -96,6 +90,7 @@ module.exports = function  (grunt) {
     grunt.registerTask('default',['dev']);
     grunt.registerTask('dev', ['concat:dev','sass:dev']);
     grunt.registerTask('dist',['concat:dev','sass:dist']);
+    grunt.registerTask('serve', ['connect:server','watch']);
 
 
 
