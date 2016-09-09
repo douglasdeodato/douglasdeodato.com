@@ -6,3 +6,9 @@ App.controller('ProjectCtrl', function($scope, $http) {
           $scope.projects = res.data;
         });
 });
+
+App.filter('to_trusted', ['$sce', function($sce){
+    return function(text) {
+        return $sce.trustAsHtml(text);
+    };
+}]);

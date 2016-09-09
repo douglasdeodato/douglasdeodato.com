@@ -1,4 +1,30 @@
 [
-  { "icon": "icon here", "name": "lovelycss" },
-  { "icon": "icon here", "name": "lovely-icons" }
+    {
+      "icon": "<i class='fa fa-github fa-3x' aria-hidden='true'></i>",
+      "name": "lovelycss"
+    }, 
+    {
+      "icon": "<i class='fa fa-github fa-3x' aria-hidden='true'></i>",
+      "name": "lovely-icons"
+    },
+    {
+      "icon": "<i class='fa fa-github fa-3x' aria-hidden='true'></i>",
+      "name": "email-templates"
+    },
+    {
+      "icon": "<i class='fa fa-github fa-3x' aria-hidden='true'></i>",
+      "name": "style-guide"
+    },
+    {
+      "icon": "<i class='fa fa-github fa-3x' aria-hidden='true'></i>",
+      "name": "fancy-sidebar"
+    },
+    {
+      "icon": "<i class='fa fa-github fa-3x' aria-hidden='true'></i>",
+      "name": "mygruntconfig"
+    },
+    {
+      "icon": "<i class='fa fa-github fa-3x' aria-hidden='true'></i>",
+      "name": "wireframe-psd"
+    }
 ]
