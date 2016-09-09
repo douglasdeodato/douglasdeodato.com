@@ -19,8 +19,7 @@ module.exports = function  (grunt) {
                      distFolder      : 'public/stylesheets/lovelycss.dist.css',
                      devFolder       : 'public/stylesheets/lovelycss.dev.css',
                      sassFolder      : 'scss/**/*.scss',
-                     serverPort: 9000,
-                     serverHost: '0.0.0.0' 
+                     serverPort: 8000
                 };
 
 
@@ -80,7 +79,7 @@ module.exports = function  (grunt) {
                          server: {
                             options: {
                               livereload: true,
-                              port: 8000
+                              port: "<%= src.serverPort %>"
                             }
                           }
                     };
