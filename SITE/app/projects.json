@@ -16,7 +16,7 @@
       "name": "style-guide"
     },
     {
-      "icon": "<i class='fa fa-github fa-3x' aria-hidden='true'></i>",
+      "icon": "<a href='fancy-sidebar.html'><i class='fa fa-github fa-3x' aria-hidden='true'></i></a>",
       "name": "fancy-sidebar"
     },
     {
