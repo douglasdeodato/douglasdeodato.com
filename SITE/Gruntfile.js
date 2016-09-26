@@ -1,17 +1,6 @@
 module.exports = function  (grunt) {
     var config = {};
 
-    //setup the configuration object
-    var jshint;
-
-    //all tasks that must be loaded.
-    var tasks = [
-            ,'grunt-contrib-watch'
-            ,'grunt-contrib-concat'
-            ,'grunt-contrib-sass'
-            ,'grunt-contrib-connect'
-    ];
-
                 //src ===============================
                 var src;
                 config.src = src = {
@@ -44,17 +33,17 @@ module.exports = function  (grunt) {
                         ,tasks: ["sass:dist"]
                      }
                 }
-    
+
                 //Sass ===============================
                 var sass;
                 config.sass = sass = {};
 
                     //distribution
                         sass.dist = {
-                            options: { 
+                            options: {
                                 style: "compressed",
-                                noCache: true, 
-                                sourcemap: 'none', 
+                                noCache: true,
+                                sourcemap: 'none',
                                 update:true
                             }
                             , files: {
@@ -64,8 +53,8 @@ module.exports = function  (grunt) {
 
                     //development env.
                         sass.dev = {
-                            options: { 
-                                style: "expanded", 
+                            options: {
+                                style: "expanded",
                                 lineNumber: true,
                             }
                             , files: {
@@ -90,11 +79,14 @@ module.exports = function  (grunt) {
     grunt.registerTask('dev', ['concat:dev','sass:dev']);
     grunt.registerTask('dist',['concat:dev','sass:dist']);
     grunt.registerTask('serve', ['connect:server','watch']);
+    require('time-grunt')(grunt);
+    require('load-grunt-tasks')(grunt, {
+            scope: 'devDependencies'
+    });
 
 
 
     //General setup ===============================
     grunt.initConfig(config);
-    tasks.forEach(grunt.loadNpmTasks);
 
 };
