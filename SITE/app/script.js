@@ -1,19 +1,5 @@
-var App = angular.module('App', ['ngRoute']);
-
-App.controller('ProjectCtrl', function($scope, $http) {
-  $http.get('app/projects.json')
-       .then(function(res){
-          $scope.projects = res.data;
-        });
-});
-
-App.filter('to_trusted', ['$sce', function($sce){
-    return function(text) {
-        return $sce.trustAsHtml(text);
-    };
-}]);
-
-App.config(function($routeProvider, $locationProvider) {
+angular.module('testApp', ['ngRoute']).
+config(function($routeProvider, $locationProvider) {
   $routeProvider.
   when('/page1', {
     templateUrl: 'page1.html',
