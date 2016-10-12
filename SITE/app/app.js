@@ -33,6 +33,9 @@ App.config(function($routeProvider, $locationProvider) {
     redirectTo: '/page1'
   });
 
+    // use the HTML5 History API
+    $locationProvider.html5Mode(true);
+
 }).controller('oneCtrl', function($scope) {
 
   $scope.Message = "HELLO WORlD";
