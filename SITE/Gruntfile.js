@@ -72,12 +72,18 @@ module.exports = function(grunt) {
         }
     };
 
+    config.exec = {
+        run_server: 'node server.js'
+    }
+
+
 
     //Register custom tasks ===============================
     grunt.registerTask('default', ['dev']);
     grunt.registerTask('dev', ['concat:dev', 'sass:dev']);
     grunt.registerTask('dist', ['concat:dev', 'sass:dist']);
-    grunt.registerTask('serve', ['connect:server', 'watch']);
+   // grunt.registerTask('serve', ['connect:server', 'watch']);
+    grunt.registerTask('serve', ['exec:run_server', 'watch']);
     require('time-grunt')(grunt);
     require('load-grunt-tasks')(grunt, {
         scope: 'devDependencies'
