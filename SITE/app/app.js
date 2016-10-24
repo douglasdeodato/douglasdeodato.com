@@ -1,4 +1,7 @@
-var App = angular.module('App', ['ngRoute']);
+//var App = angular.module('App', ['ngRoute']);
+
+var App = angular.module('App', []);
+
 
 App.controller('ProjectCtrl', function($scope, $http) {
   $http.get('app/projects.json')
@@ -13,6 +16,7 @@ App.filter('to_trusted', ['$sce', function($sce){
     };
 }]);
 
+/*
 App.config(function($routeProvider, $locationProvider) {
   $routeProvider.
   when('/page1', {
@@ -47,3 +51,4 @@ App.config(function($routeProvider, $locationProvider) {
 
   $scope.Message = "Three";
 });
+*/
