@@ -26,8 +26,8 @@ $(document).scroll(function() {
             // Make them show.
             // $('footer')
             //     .addClass(animateGroup)
-            //     .css({visibility: 'visible', 'animation-name': 'shake'}); 
-          
+            //     .css({visibility: 'visible', 'animation-name': 'shake'});
+
             // Demo without wow.js
             $('footer').addClass('animated shake').show();
         }
@@ -40,9 +40,33 @@ $(document).scroll(function() {
             //     .removeAttr('style');
                 // Or if you have other styles, use below to remove specific style instead.
                 //.css({visibility: '', 'animation-name': ''});
-          
+
           // Demo without wow.js
           //$('footer').hide();
         }
     }
 });
+
+   $(document).ready(function(){
+     var x = location.pathname;
+     if (x ==="/contributions.html") {
+      $( "ul.nav.navbar-nav li:eq(2)" ).addClass('active');
+    }
+      else {console.log("wrong path")}
+    });
+
+     $(document).ready(function(){
+     var x = location.pathname;
+     if (x ==="/index.html") {
+      $( "ul.nav.navbar-nav li:eq(0)" ).addClass('active');
+    }
+      else {console.log("wrong path")}
+    });
+
+     $(document).ready(function(){
+     var x = location.pathname;
+     if (x ==="/projects.html") {
+      $( "ul.nav.navbar-nav li:eq(1)" ).addClass('active');
+    }
+      else {console.log("wrong path")}
+    });
