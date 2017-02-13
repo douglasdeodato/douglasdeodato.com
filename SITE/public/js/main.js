@@ -48,25 +48,15 @@ $(document).scroll(function() {
 });
 
    $(document).ready(function(){
-     var x = location.pathname;
-     if (x ==="/contributions.html") {
-      $( "ul.nav.navbar-nav li:eq(2)" ).addClass('active');
-    }
-      else {console.log("wrong path")}
-    });
+    var x = location.pathname;
+    if (x ==="/index.html") {
+       $( "ul.nav.navbar-nav li:eq(0)" ).addClass('active');
+     }
+     else if (x ==="/projects.html") {
+       $( "ul.nav.navbar-nav li:eq(1)" ).addClass('active');
+     }
+     else if(x ==="/contributions.html") {
+       $( "ul.nav.navbar-nav li:eq(2)" ).addClass('active');
+     }
 
-     $(document).ready(function(){
-     var x = location.pathname;
-     if (x ==="/index.html") {
-      $( "ul.nav.navbar-nav li:eq(0)" ).addClass('active');
-    }
-      else {console.log("wrong path")}
-    });
-
-     $(document).ready(function(){
-     var x = location.pathname;
-     if (x ==="/projects.html") {
-      $( "ul.nav.navbar-nav li:eq(1)" ).addClass('active');
-    }
-      else {console.log("wrong path")}
-    });
+   });
